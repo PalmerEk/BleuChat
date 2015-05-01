@@ -1,0 +1,48 @@
+{
+	"bots": {
+		"rainbot": {
+			"botname": "rainbot",
+			"key": "",
+  		"secret": "",
+  		"username":"",
+      "password":"",
+      "lang": "en",
+      "congrats": "Congrats: "
+		},
+		"sprinklebot": {
+			"botname": "",
+			"key": "",
+  		"secret": "",
+  		"username":"",
+      "password":"",
+      "lang": "en",
+      "congrats": "Congrats: ",
+      "steadybotCurrencies": [
+      	{"currency": "BUN", "amt": 750},
+      	{"currency": "CAGE", "amt": 2500},
+      	{"currency": "GCN", "amt": 2500},
+      	{"currency": "HTML5", "amt": 25},
+      	{"currency": "ORB", "amt": 0.015}
+      ]
+		}
+	},
+
+  "stateFile": "/var/www/BleuChat/BleuChat-state.json",
+	"mods": ["looper", "palmerek", "pharrisee", "jagrapolite5", "marlenac", "rainbot", "sprinklebot", "hujanbot", "gerimisbot"],
+
+  "google": {
+    "translate": {
+      "key": ""
+    }
+  },
+
+  "database": {
+    "host": "",
+    "connectionLimit": 10,
+    "database": "bleuchat",
+    "user": "",
+    "password": ""
+  }
+}
+
+
